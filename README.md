@@ -1,7 +1,20 @@
-Crud operation s in completed in add and edite work in 
+# CRUD App
 
+## Description
+A React application to perform CRUD operations on user data using Axios and a mock API.
 
-npm i axios and bootstrap
+## Setup
+1. Clone the repository.
+2. Install dependencies: `npm install`
+3. Run the app: `npm start`
 
-npm i react-router-dom 
-npm i react tourity
+## Features
+- Display user data
+- Add new user
+- Edit existing user
+- Delete user
+
+## Dependencies
+- React
+- Axios
+
