@@ -21,7 +21,7 @@ const EditContact = () => {
   });
 
   useEffect(() => {
-    axios.get(`https://6642ed793c01a059ea20d239.mockapi.io/api/Users1/${Id}`)
+    axios.get(`https://6642ed793c01a059ea20d239.mockapi.io/api/Users1/${contactId}`)
       .then(response => {
         setContact(response.data);
       })
@@ -34,7 +34,7 @@ const EditContact = () => {
     event.preventDefault();
     const updatedContact = { ...contact };
 
-    axios.put(`https://6642ed793c01a059ea20d239.mockapi.io/api/Users1/${Id}`, updatedContact)
+    axios.put(`https://6642ed793c01a059ea20d239.mockapi.io/api/Users1/${contactId}`, updatedContact)
       .then(response => {
         toast.success('Contact Updated Successfully ✅');
         console.log('Contact updated successfully:', response.data);

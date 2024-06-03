@@ -57,7 +57,7 @@ const AddContact = () => {
     <div className="container cont-bg mt-4">
       <div className="row">
         <div className="col-md-6">
-          <img src="/images/addContact.jpg" alt="Add Contact" className="img-fluid" />
+          {/* <img src="/images/addContact.jpg" alt="Add Contact" className="img-fluid" /> */}
         </div>
         <div className="col-md-6 p-2">
           <h2 className='text-center fw-bold head'>Add New Contact</h2>
